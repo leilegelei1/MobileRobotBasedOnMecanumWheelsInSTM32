@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Gavin, 1, LIC=7YKJJ-U1X7I-22BL4-FXT13-HRE7J-PZX6M
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Gavin\Desktop\毕设\巡线运动\自制舵机\USER\Template.uvprojx
+Project File Date:  04/05/2017
+
+<h2>Output:</h2>
+Build target 'Template'
+compiling main.c...
+..\HARDWARE\pwm_in\pwm_in.h(34): warning:  #1295-D: Deprecated declaration PIN2_Init - give arg types
+  void PIN2_Init();
+..\HARDWARE\pid\pid.h(80): warning:  #1295-D: Deprecated declaration PID_INIT - give arg types
+  void PID_INIT();
+..\HARDWARE\kinematics\kinematics.h(13): warning:  #1295-D: Deprecated declaration MatrixInit - give arg types
+  void MatrixInit();
+..\HARDWARE\kinematics\kinematics.h(14): warning:  #1295-D: Deprecated declaration GetVelocity - give arg types
+  void GetVelocity();
+..\HARDWARE\kinematics\kinematics.h(15): warning:  #1295-D: Deprecated declaration GetDisire - give arg types
+  void GetDisire();
+..\HARDWARE\data\data.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(53): warning:  #177-D: variable "testbuf" was declared but never referenced
+         u8  testbuf[9]={0xfd,0xfd,0xfd,0xfd,0xfd,0xfd,0xfd,0xfd,0xfd};
+main.c(54): warning:  #177-D: variable "testnum" was declared but never referenced
+                u8  testnum=0;
+main.c(56): warning:  #177-D: variable "adc15" was declared but never referenced
+        u16 adc15,adc14;
+main.c(56): warning:  #177-D: variable "adc14" was declared but never referenced
+        u16 adc15,adc14;
+main.c(57): warning:  #177-D: variable "temp" was declared but never referenced
+        float temp,temp1;
+main.c(57): warning:  #177-D: variable "temp1" was declared but never referenced
+        float temp,temp1;
+main.c(59): warning:  #177-D: variable "disire_angel" was declared but never referenced
+        float disire_angel;
+main.c: 13 warnings, 0 errors
+linking...
+Program Size: Code=13980 RO-data=336 RW-data=468 ZI-data=2132  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Gavin\Desktop\毕设\巡线运动\自制舵机\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
